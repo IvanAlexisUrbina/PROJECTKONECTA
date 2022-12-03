@@ -7,7 +7,9 @@ SENTENCIAS SOLICITADAS
 
 SELECT prod_id,prod_nombre, MAX(vent_cantidad) FROM tbl_ventas
 
-2// la sentencia que me dice cual es el producto que más stock tiene SELECT prod_id,prod_nombre, MAX(prod_stock) FROM tbl_producto.
+2// la sentencia que me dice cual es el producto que más stock tiene
+
+SELECT prod_id,prod_nombre, MAX(prod_stock) FROM tbl_producto.
 
 PUNTOS A TENER EN CUENTA
 
